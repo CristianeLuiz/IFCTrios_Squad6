@@ -8,14 +8,14 @@ Funcionalidade: <Chamadas vídeo>
 
   ID: <CT-17>
 
-  Cenário: "Validar chamadas de video".
+  Cenário: "Criar nova transmissão".
 
   Contexto:
     Dado que tenho acesso e sou usuario do "Whatsapp"
       E tenho contatos "cadastrados" no Whatsapp
-        E clico em "contatos"
-          E abro a "chamada em video"
-    Quando clicar em "ligar"
+        E clico em "criar nova transmissão"
+          E abro a "adiciono ao menos 2 contatos"
+    Quando clicar em "criar"
     
-    Então devo ver "iniciar conversa por vídeo"
+    Então devo ver "iniciar uma nova transmissão"
 
